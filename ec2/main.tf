@@ -7,8 +7,8 @@ terraform {
     region = "us-east-1"
     
     # Имя таблицы в DynamoDB, которое определили в самом начале
-    dynamodb_table = "terraform-state-locks"
-    encrypt = true 
+    #dynamodb_table = "terraform-state-locks"
+    #encrypt = true 
   }
   required_providers {
     aws = {
