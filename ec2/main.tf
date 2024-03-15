@@ -24,7 +24,7 @@ provider "aws" {
 
 resource "aws_instance" "from-terraform-ubuntu" {
   count = 1
-  ami = "ami-0b98a32b1c5e0d105"
+  ami = "ami-0568072f574d822a4"
   instance_type = var.ec2-type
   subnet_id = "subnet-048c2c7139defb91e"
   tags = {
